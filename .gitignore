@@ -1,0 +1,31 @@
+# Secrets / local env (never commit tokens)
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated artifacts (if you add caching later)
+artifacts/
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
